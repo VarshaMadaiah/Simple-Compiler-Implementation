@@ -1,5 +1,5 @@
 from lexer import Lexer
-from parser import Parser
+from code_parser import Parser
 from codegen import CodeGen
 
 fname = "input.toy"
