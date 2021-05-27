@@ -23,3 +23,4 @@ print(4 + 4 - 2);
 * **Step 4** : Run ``` gcc output.o -o output```
 Now the object code is generated as output
 * **Step 5** : Run the generated executable using ```./output```"# Simple-Compiler-Implementation" 
+"# Simple-Compiler-Implementation" 
