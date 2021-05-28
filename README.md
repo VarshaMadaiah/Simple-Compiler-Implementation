@@ -2,10 +2,10 @@
 Its a simple compiler which compiles a toy language into machine codes
 ## Requirements
 * [Anaconda](https://www.anaconda.com/products/individual#Downloads)
-* LLVMlite
-> conda install --channel=numba llvmlite
-* RPLY
-> conda install -c conda-forge rply
+* LLVMlite 
+```conda install --channel=numba llvmlite```
+* RPLY 
+```conda install -c conda-forge rply```
 * LLC
 * GCC
 
