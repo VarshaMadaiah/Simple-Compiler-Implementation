@@ -16,10 +16,12 @@ class Lexer():
         # Operators
         self.lexer.add('SUM', r'\+')
         self.lexer.add('SUB', r'\-')
+        self.lexer.add('MUL', r'\*')
+        self.lexer.add('DIV', r'\/')
         # Number
         self.lexer.add('NUMBER', r'\d+')
         # Ignore spaces
-        self.lexer.ignore('\s+')
+        self.lexer.ignore(r'\s+')
 
     def get_lexer(self):
         self._add_tokens()

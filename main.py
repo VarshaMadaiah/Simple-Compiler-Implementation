@@ -1,5 +1,5 @@
 from lexer import Lexer
-from code_parser import Parser
+from parser import Parser
 from codegen import CodeGen
 
 fname = "input.dsce"
